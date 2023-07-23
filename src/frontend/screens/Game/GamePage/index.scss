@@ -291,6 +291,10 @@
 }
 
 .App:not(.oldDesign) .gameConfigContainer {
+  padding: 50px;
+  height: 100%;
+  gap: 50px;
+
   .backButton,
   .showInfo,
   .showExtra,
@@ -320,9 +324,6 @@
 
 .gameConfigContainer {
   display: flex;
-  padding: 50px;
-  height: 100%;
-  gap: 50px;
 
   .mainInfoWrapper,
   .extraInfoWrapper {
