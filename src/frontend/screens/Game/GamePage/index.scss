@@ -411,9 +411,9 @@
 
 .App:not(.oldDesign) .gameConfigContainer {
   display: flex;
-  padding: 50px;
+  padding: min(3vh, 50px);
   height: 100%;
-  gap: 50px;
+  gap: min(5vw, 50px);
 
   .backButton,
   .showInfo,
@@ -486,6 +486,7 @@
     grid-template-columns: 1fr min-content min-content;
     grid-template-areas: 'back settings menu' 'main main main';
     column-gap: 15px;
+    min-width: 450px;
 
     .backButton {
       grid-area: back;
@@ -502,7 +503,7 @@
 
     .mainInfo {
       grid-area: main;
-      padding: 300px 70px 70px;
+      padding: min(25vh, 300px) min(4vw, 70px) min(4vw, 70px);
 
       .store-icon {
         position: absolute;
@@ -570,7 +571,7 @@
     }
 
     .tabContent {
-      padding: 70px 50px;
+      padding: min(4vh, 70px) min(2.5vw, 50px);
 
       &.infoTab,
       &.extraTab {
