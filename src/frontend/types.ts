@@ -13,7 +13,8 @@ import {
   GameSettings,
   WikiInfo,
   ExtraInfo,
-  Status
+  Status,
+  ExperimentalFeatures
 } from 'common/types'
 import { GogInstallInfo } from 'common/types/gog'
 import { LegendaryInstallInfo } from 'common/types/legendary'
@@ -111,6 +112,8 @@ export interface ContextType {
     type?: 'settings' | 'log',
     gameInfo?: GameInfo
   ) => void
+  experimentalFeatures: ExperimentalFeatures
+  handleExperimentalFeatures: (newSetting: ExperimentalFeatures) => void
 }
 
 export type DialogModalOptions = {
