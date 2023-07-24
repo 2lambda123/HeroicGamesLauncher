@@ -401,7 +401,7 @@ export default React.memo(function GamePage(): JSX.Element | null {
                         handlePlay={handlePlay}
                         handleInstall={handleInstall}
                       />
-                      <button>Uninstall</button>
+                      {gameInfo.is_installed && <button>Uninstall</button>}
                     </div>
                   </div>
                 </div>

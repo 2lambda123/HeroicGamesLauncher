@@ -24,6 +24,121 @@
         flex-basis: 100%;
         align-self: center;
       }
+
+      .settings-icon {
+        width: 44px;
+        position: relative;
+        padding: 6px;
+        right: 6px;
+        background: var(--neutral-03);
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        height: 44px;
+
+        svg path {
+          fill: var(--neutral-06);
+          transition: fill 0.2s;
+        }
+
+        &:hover {
+          svg path {
+            fill: var(--neutral-05);
+          }
+        }
+      }
+
+      .game-actions {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .toggle {
+          align-self: flex-end;
+          border: none;
+          color: var(--neutral-06);
+          font-size: var(--text-2xl);
+          padding: var(--space-xs-fixed);
+          cursor: pointer;
+          position: relative;
+          transition: color 0.2s;
+          display: flex;
+          justify-content: center;
+          width: 44px;
+          height: 44px;
+          background: var(--neutral-03);
+          border-radius: 10px;
+        }
+
+        &:focus-within .toggle,
+        &:hover .toggle,
+        .toggle:hover {
+          color: var(--neutral-05);
+        }
+
+        .gameTools {
+          position: absolute;
+          opacity: 1;
+          pointer-events: all;
+          transition: all 0.2s;
+          background: var(--navbar-background);
+          border-radius: 5px;
+          z-index: 2;
+          padding: 0;
+          max-height: 0px;
+          overflow: hidden;
+          right: 0;
+          top: 112%;
+        }
+
+        .gameTools .link {
+          width: 100%;
+          padding: 0 0 0.5rem;
+          text-align: start;
+          white-space: nowrap;
+          font-size: 1rem;
+          background: var(--navbar-background);
+
+          &:hover {
+            color: var(--accent-overlay);
+          }
+
+          &:last-child {
+            padding-bottom: 0;
+          }
+        }
+
+        &:focus-within .gameTools,
+        &:hover .gameTools {
+          opacity: 1;
+          pointer-events: all;
+          padding: var(--space-md);
+          max-height: 100vh;
+          box-shadow: 4px 5px 5px -2px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+
+    .store-icon {
+      position: absolute;
+      left: 1rem;
+      bottom: 0.5rem;
+      border-radius: 10px;
+      padding: var(--space-3xs);
+      place-content: center;
+      fill: var(--text-default);
+
+      & > svg {
+        background-color: var(--body-background);
+        width: 60px;
+        height: 60px;
+        padding: var(--space-3xs);
+        border-radius: 10px;
+
+        &.gogIcon {
+          padding: 0px var(--space-3xs) var(--space-3xs);
+        }
+      }
     }
   }
 
@@ -52,6 +167,25 @@
     flex-basis: 40%;
     flex-shrink: 0;
     flex-grow: 0;
+  }
+
+  .backButton {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: none;
+    border: none;
+    color: var(--accent);
+
+    & > .MuiSvgIcon-root {
+      width: 40px;
+      height: 40px;
+      transition: 300ms;
+
+      &:hover {
+        color: var(--accent-overlay);
+      }
+    }
   }
 
   .isRTL .backButton {
@@ -258,42 +392,28 @@
     min-width: max-content;
   }
 
+  .buttonWithIcon {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+    & > svg {
+      height: 20px;
+    }
+  }
+
   @keyframes animate-stripes {
     100% {
       background-position: -100px 0px;
     }
   }
-
-  .backButton {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    background: none;
-    border: none;
-    color: var(--accent);
-
-    & > .MuiSvgIcon-root {
-      width: 40px;
-      height: 40px;
-      transition: 300ms;
-
-      &:hover {
-        color: var(--accent-overlay);
-      }
-    }
-  }
-
-  .store-icon {
-    position: absolute;
-    left: 1rem;
-    bottom: 0.5rem;
-  }
 }
 
 .App:not(.oldDesign) .gameConfigContainer {
-  padding: 50px;
+  display: flex;
+  padding: min(3vh, 50px);
   height: 100%;
-  gap: 50px;
+  gap: min(5vw, 50px);
 
   .backButton,
   .showInfo,
@@ -320,10 +440,6 @@
       }
     }
   }
-}
-
-.gameConfigContainer {
-  display: flex;
 
   .mainInfoWrapper,
   .extraInfoWrapper {
@@ -370,6 +486,7 @@
     grid-template-columns: 1fr min-content min-content;
     grid-template-areas: 'back settings menu' 'main main main';
     column-gap: 15px;
+    min-width: 450px;
 
     .backButton {
       grid-area: back;
@@ -386,7 +503,7 @@
 
     .mainInfo {
       grid-area: main;
-      padding: 300px 70px 70px;
+      padding: min(25vh, 300px) min(4vw, 70px) min(4vw, 70px);
 
       .store-icon {
         position: absolute;
@@ -454,7 +571,7 @@
     }
 
     .tabContent {
-      padding: 70px 50px;
+      padding: min(4vh, 70px) min(2.5vw, 50px);
 
       &.infoTab,
       &.extraTab {
