@@ -289,6 +289,15 @@ export default React.memo(function GamePage(): JSX.Element | null {
       wikiInfo
     }
 
+    const hasWikiInfo =
+      wikiInfo?.applegamingwiki ||
+      wikiInfo?.howlongtobeat ||
+      wikiInfo?.pcgamingwiki?.metacritic.score ||
+      wikiInfo?.pcgamingwiki?.opencritic.score ||
+      wikiInfo?.steamInfo
+
+    const hasRequirements = extraInfo ? extraInfo.reqs.length > 0 : false
+
     return (
       <div className="gameConfigContainer">
         {gameInfo.runner !== 'sideload' && showModal.show && (
@@ -414,7 +423,7 @@ export default React.memo(function GamePage(): JSX.Element | null {
                     >
                       <Info />
                     </button>
-                    {wikiInfo && (
+                    {hasWikiInfo && (
                       <button
                         title="Extra Info"
                         className="showExtra"
@@ -423,7 +432,7 @@ export default React.memo(function GamePage(): JSX.Element | null {
                         <Star />
                       </button>
                     )}
-                    {extraInfo?.reqs && (
+                    {hasRequirements && (
                       <button
                         title="Requirements"
                         className="showRequirements"

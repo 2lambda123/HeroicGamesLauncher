@@ -85,7 +85,8 @@ const InstalledInfo = ({ gameInfo }: Props) => {
           appLocation !== undefined ? window.api.openFolder(appLocation) : {}
         }
       >
-        <b>{t('info.path')}:</b> {appLocation}
+        <b>{t('info.path')}:</b>{' '}
+        <div className="truncatedPath">{appLocation}</div>
       </div>
       {!is.win && !is.native && (
         <>
@@ -94,14 +95,16 @@ const InstalledInfo = ({ gameInfo }: Props) => {
           </div>
           {wineVersion && wineType === 'crossover' ? (
             <div>
-              <b>{t2('setting.winecrossoverbottle', 'Bottle')}:</b> {winePrefix}
+              <b>{t2('setting.winecrossoverbottle', 'Bottle')}:</b>{' '}
+              <div className="truncatedPath">{winePrefix}</div>
             </div>
           ) : (
             <div
               className="clickable"
               onClick={() => window.api.openFolder(winePrefix)}
             >
-              <b>{t2('setting.wineprefix', 'WinePrefix')}:</b> {winePrefix}
+              <b>{t2('setting.wineprefix', 'WinePrefix')}:</b>{' '}
+              <div className="truncatedPath">{winePrefix}</div>
             </div>
           )}
         </>
