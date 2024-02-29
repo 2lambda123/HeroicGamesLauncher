@@ -3,27 +3,27 @@
 ## Tech Stack
 2lambda123/HeroicGamesLauncher is built on the following main stack:
 
-- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
+- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - [Electron](http://electron.atom.io/) – Cross-Platform Desktop Development
-- [ESLint](http://eslint.org/) – Code Review
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [React](https://reactjs.org/) – Javascript UI Libraries
 - [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [i18next](https://www.i18next.com/) – Translation Service
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - [Recharts](http://recharts.org/) – Charting Libraries
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- [Prettier](https://prettier.io/) – Code Review
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
-- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [ESLint](http://eslint.org/) – Code Review
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
+- [Prettier](https://prettier.io/) – Code Review
+- [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
+- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [i18next](https://www.i18next.com/) – Translation Service
 
 Full tech stack [here](/techstack.md)
 
@@ -33,27 +33,27 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/HeroicGamesLauncher is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg' alt='Electron'/> [Electron](http://electron.atom.io/) – Cross-Platform Desktop Development
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'/> [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png' alt='i18next'/> [i18next](https://www.i18next.com/) – Translation Service
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/5608/13690587.png' alt='Recharts'/> [Recharts](http://recharts.org/) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'/> [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png' alt='i18next'/> [i18next](https://www.i18next.com/) – Translation Service
 
 Full tech stack [here](/techstack.md)
 
@@ -64,7 +64,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/HeroicGamesLauncher](https://github.com/2lambda123/HeroicGamesLauncher)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|71<br/>Tools used|01/09/24 <br/>Report generated|
+|71<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -356,7 +356,7 @@ Full tech stack [here](/techstack.md)
 |[tmp](https://www.npmjs.com/tmp)|v0.2.1|12/26/20|Flavio Lima |MIT|N/A|
 |[ts-jest](https://www.npmjs.com/ts-jest)|v29.0.5|03/17/23|Mathis Dröge |MIT|N/A|
 |[tslib](https://www.npmjs.com/tslib)|v1.14.1|08/07/23|Mathis Dröge |0BSD|N/A|
-|[vite](https://www.npmjs.com/vite)|v3.2.7|06/30/23|Flavio F Lima |N/A|N/A|
+|[vite](https://www.npmjs.com/vite)|v3.2.7|06/30/23|Flavio F Lima |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)|
 
 <br/>
 <div align='center'>
